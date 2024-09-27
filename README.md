@@ -2,10 +2,10 @@
 <h3>Name: LAAKSHIT D</h3>
 <h3>Register Number: 212222230071</h3>
 
-<H3>Aim:</H3>
+### Aim:
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
 
-<h3>Theory:</h3>
+### Theory:
 <strong>Depth First Traversal </strong>(or DFS) for a graph is like Depth First Traversal of a tree. The only catch here is that, unlike trees, graphs may contain cycles (a node may be visited twice). Use a Boolean visited array to avoid processing a node more than once. A graph can have more than one DFS traversal. 
 Depth-first search is an algorithm for traversing or searching trees or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
 Step 1: Initially, stack and visited arrays are empty.
@@ -52,7 +52,7 @@ Visit node 3
 
 Now, the Stack becomes empty, which means we have visited all the nodes, and our DFS traversal ends.
 
-<h3>Algorithm:</h3>
+### Algorithm:
 <B><ol>
  <li>Construct a Graph with Nodes and Edges</li>
  <li>Depth First Search Uses Stack and Recursion</li>
@@ -61,7 +61,7 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
 </ol></B>
 
-<h3>Program</h3>
+### Program:
 
 ```python
 from collections import defaultdict
@@ -95,7 +95,7 @@ traversed_path = dfs(graph, start, visited, path)
 print("DFS Traversal Path:", traversed_path)
 ```
 
-<h3>Sample Input</h3>
+### Sample Input:
 
 8 9 <BR>
 A B <BR>
@@ -108,11 +108,11 @@ D F <BR>
 G F <BR>
 F H <BR>
 
-<h3>Sample Output</h3>
+### Sample Output:
 
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
 
-<h3>Sample Input</h3>
+### Sample Input:
 
 5 5 <BR>
 0 1 <BR>
@@ -121,11 +121,11 @@ F H <BR>
 2 3 <BR>
 2 4 <BR>
 
-<h3>Sample Output</h3>
+### Sample Output
 
 ['0', '1', '2', '3', '4']
 
-<h3>Result:</h3>
+### Result:
 
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
 
